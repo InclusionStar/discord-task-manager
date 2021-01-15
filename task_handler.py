@@ -1,8 +1,8 @@
-class TaskManager():
-    def __init__(self):
-        pass
+class TaskHandler():
+    def __init__(self, tasks=[]):
+        self.tasks = tasks
 
-    def add(self, info):
+    def add(self):
         pass
 
     def delete(self):
